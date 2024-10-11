@@ -1,0 +1,38 @@
+
+.taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem {
+    display: flex;
+    padding: 10px;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputTask {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.buttonAdd {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonDelete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
